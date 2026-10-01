@@ -1,0 +1,64 @@
+.first {
+    color: #BCD5EF
+}
+
+.second {
+    color: #818C33
+}
+
+.third {
+    color: #6C7331
+}
+
+.fourth {
+    color: #54592C
+}
+
+.fifth {
+    color: #EFE2C5
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #54592C;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+/* Hover effect */
+nav a:hover {
+    background-color: #BCD5EF;
+}
+
+/* Active (current page) link */
+nav a.active {
+    background-color: #818C33;
+    /* a green highlight */
+    font-weight: bold;
+    /* make it stand out */
+}
+
+.card {
+    background-color: #6C7331;
+    border-style: solid;
+    border-color: #BCD5EF;
+    margin: 20px;
+    /* Distance of each box */
+    padding: 15px;
+    /* Distance of contents of box from box border */
+}
